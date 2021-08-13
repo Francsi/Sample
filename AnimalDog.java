@@ -8,10 +8,10 @@ void bark(){
     System.out.println("barking...");
     }  
 }  
-class TestInheritance{  
+class AnimalDog{  
     public static void main(String args[]){  
-        Dog d=new Dog();  
-        d.bark();  
-        d.eat();  
+        Dog dog=new Dog();  
+        dog.bark();  
+        dog.eat();  
 }  
 }  
